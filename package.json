@@ -1,0 +1,32 @@
+Oui. On commence par un seul fichier, pour éviter les erreurs.
+
+Dans ton dépôt Composer-pro4, à la racine, ouvre package.json et remplace tout son contenu par ceci :
+
+{
+  "name": "ArsHarmonia",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android"
+  },
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.74.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.24.0",
+    "@babel/preset-env": "^7.24.0",
+    "@babel/runtime": "^7.24.0",
+    "@react-native/babel-preset": "0.74.5",
+    "@react-native/metro-config": "0.74.5"
+  }
+}
+
+Ensuite :
+
+Commit changes → Commit changes
+
+⚠️ Ne crée pas encore android/, gradle/ ou gradlew.
+
+Quand package.json est enregistré, réponds simplement « fait ». Je te donnerai le fichier suivant, dans le bon ordre.
